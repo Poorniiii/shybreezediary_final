@@ -1,0 +1,209 @@
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: cursive;
+  background-color: #856bbd;
+  color: white;
+  padding: 20px;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.homecenter,
+.homecenter:hover {
+  text-align: center;
+  font-family: cursive;
+  background-color: #856bbd;
+  padding-bottom: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.menuBar {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #856bbd;
+}
+
+.menu,
+.menu:hover {
+  padding-left: 5%;
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+.enterEmail,
+.enterPassword,
+.enterName {
+  width: 300px;
+}
+
+.email,
+.password,
+.name,
+.submit {
+  margin: 3%;
+}
+
+.listOfNotes {
+  font-family: cursive;
+  padding-top: 2%;
+  padding-left: 5%;
+  color: white;
+}
+
+.backArrow,
+.backArrow:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.arcorfav {
+  margin-top: 1%;
+}
+
+.button {
+  background-color: #856bbd;
+  border-color: #856bbd;
+  color: white;
+  border-radius: 50%;
+}
+
+.showPageTitle {
+  background-color: #a682ee;
+  text-decoration: none;
+  color: white;
+  border-style: none;
+}
+
+.showPageTitle:hover {
+  background-color: #a682ee;
+  color: black;
+  border-style: none;
+}
+
+.saveToast {
+  opacity: 0.7;
+  width: 100px !important;
+}
+
+.saveToastText {
+  color: white;
+  text-align: center;
+}
+
+.enterTitle,
+.closeButton {
+  margin: 10px;
+}
+
+.closeButton {
+  border: none;
+  background-color: white;
+}
+
+.showTitle {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: cursive;
+}
+
+.showContent {
+  font-family: cursive;
+}
+
+.enterTitle {
+  width: 92%;
+  height: 50px;
+  font-size: 15px;
+  margin-left: 4%;
+  font-family: cursive;
+}
+
+.enterNotes {
+  width: 100%;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+textarea {
+  height: 350px;
+}
+
+.saveNotes {
+  width: 80px;
+}
+
+.saveNotes,
+.submitNotes {
+  background-color: gray !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 50% !important;
+}
+
+.modalFooter {
+  justify-content: center !important;
+}
+
+.App {
+  background-color: #a682ee;
+  height: 100vh;
+}
+
+.pagesList {
+  background-color: #a682ee;
+}
+
+.archives,
+.favorites {
+  background-color: #a682ee;
+  font-family: cursive;
+}
+
+.warningMessage {
+  color: red;
+  font-size: 12px;
+  padding-left: 6% !important;
+}
+
+.mobileMenuImg {
+  display: none;
+}
+
+.note {
+  color: red;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .mobileMenuImg {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    padding-left: 10px;
+  }
+
+  .desktopMenuText {
+    display: none;
+  }
+
+  .mobileFontDate {
+    font-size: 12px;
+  }
+
+  .mobileFontTitle {
+    font-size: 20px;
+  }
+
+  .mobileFontContent {
+    font-size: 15px;
+  }
+
+  .note {
+    font-size: 12px;
+  }
+}
