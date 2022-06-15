@@ -19,3 +19,5 @@ Favorite - lists all favorite pages. User can view the page and remove favorite.
 Archive - lists all archived pages. User can view the page and remove archive.
 
 🤟
+
+Go to https://5355m8.csb.app/ for working CodeSandbox model
