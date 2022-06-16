@@ -2,9 +2,9 @@
 
 Created with CodeSandbox
 
-This is a Mobile and Desktop responsive Diary App made with ReactJS, Reduxw(react-redux and @reduxjs/toolkit), React Hooks and uses bootstrap for styling. It mainly focuses on front end which is UI and handling data(functionality).
+This is a Mobile and Desktop responsive Diary App made with ReactJS, Reduxw(react-redux and @reduxjs/toolkit), React Hooks and uses bootstrap for styling. It mainly focuses on front end which is UI and handling data(functionality) and doesn't use API.
 
-Data is stored in react store and CRUD operation performs on store.
+Data(.js file) is stored in react store and CRUD operation performs on store.
 
 Contents:
 This diary has Login and Signup page. But it won't work as user data is currently not stored(Just created to play around with router).
