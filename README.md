@@ -7,7 +7,7 @@ This is a Mobile and Desktop responsive Diary App made with ReactJS, Reduxw(reac
 Data(.js file) is stored in react store and CRUD operation performs on store.
 
 Contents:
-This diary has Login and Signup page. But it won't work as user data is currently not stored(Just created to play around with router).
+This diary has Login and Signup page. But it won't work as user data is currently not stored (Just created to play around with router).
 
 It has Home, Favorite and Archive section.
 
